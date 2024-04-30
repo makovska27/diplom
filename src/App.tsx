@@ -1,31 +1,43 @@
 import "./App.css"
-import { createRoot } from "react-dom/client"
-import {
-  createBrowserRouter,
-  RouterProvider,
-  Route,
-  Link,
-} from "react-router-dom"
+import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom"
 import HomePage from "./pages/Home"
 import Page404 from "./pages/404"
 import AnimalType from "./pages/AnimalType"
-
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <HomePage />,
-  },
-  {
-    path: "animal/:id",
-    element: <AnimalType />,
-  },
-  {
-    path: "*",
-    element: <Page404 />,
-  },
-])
+import Navbar from "./components/Navbar"
 
 function App() {
+  const Layout = () => {
+    return (
+      <div>
+        <Navbar />
+        <div className="outlet" style={{ flex: 6, padding: "20px" }}>
+          <Outlet />
+        </div>
+      </div>
+    )
+  }
+
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <Layout />,
+      children: [
+        {
+          path: "/",
+          element: <HomePage />,
+        },
+        {
+          path: "animal/:id",
+          element: <AnimalType />,
+        },
+        {
+          path: "*",
+          element: <Page404 />,
+        },
+      ],
+    },
+  ])
+
   return (
     <>
       <RouterProvider router={router} />

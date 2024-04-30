@@ -7,6 +7,8 @@ import {
   Link,
 } from "react-router-dom"
 import HomePage from "./pages/Home"
+import Page404 from "./pages/404"
+import AnimalType from "./pages/AnimalType"
 
 const router = createBrowserRouter([
   {
@@ -14,8 +16,12 @@ const router = createBrowserRouter([
     element: <HomePage />,
   },
   {
-    path: "about",
-    element: <div>About</div>,
+    path: "animal/:id",
+    element: <AnimalType />,
+  },
+  {
+    path: "*",
+    element: <Page404 />,
   },
 ])
 

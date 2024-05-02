@@ -17,6 +17,15 @@ module.exports = {
       },
     },
     extend: {
+      backgroundImage: {
+        "hero-bg": "url('/src/assets/bg.jpg')",
+        "mammals-bg": "url('/src/assets/mammals.jpg')",
+        "birds-bg": "url('/src/assets/birds.jpg')",
+        "insects-bg": "url('/src/assets/insects.jpg')",
+        "amphibians-bg": "url('/src/assets/amphibians.jpg')",
+        "reptiles-bg": "url('/src/assets/reptiles.jpg')",
+        "fish-bg": "url('/src/assets/fish.jpg')",
+      },
       colors: {
         "dark-gradient": "#093028",
         "dark-green": "#237a57",

@@ -10,7 +10,7 @@ function App() {
     return (
       <div>
         <Navbar />
-        <div className="outlet" style={{ flex: 6, padding: "20px" }}>
+        <div className="pt-20 outlet">
           <Outlet />
         </div>
       </div>

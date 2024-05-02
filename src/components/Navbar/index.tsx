@@ -4,10 +4,8 @@ import Logo from "@/assets/logo.png"
 
 const Navbar = () => {
   const navArray = Object.values(ANIMALS)
-
-  console.log(navArray)
   return (
-    <nav className="flex w-full p-4 bg-gradient-to-r from-dark-gradient to-dark-green">
+    <nav className="h-20 fixed z-20 flex w-full p-4 bg-gradient-to-r from-dark-gradient to-dark-green">
       <Link to="/" className="w-10 h-10">
         <img src={Logo} />
       </Link>

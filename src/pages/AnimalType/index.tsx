@@ -26,13 +26,16 @@ const AnimalType = () => {
 
   return (
     <div
+      style={{ "--image-url": `url('/src/assets/${bgImage}.jpg')` }}
       className={`w-full
-    h-screen
+   h-100vhCalc
     p-5
     relative
     overflow-hidden
     block
-    z-10 bg-[url('/src/assets/${bgImage}.jpg')]
+    z-10 bg-[image:var(--image-url)]
+
+    bg-${bgImage}-bg
    
     bg-cover
     bg-no-repeat

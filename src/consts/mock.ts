@@ -148,80 +148,19 @@ const animalsData = {
     ],
     rodents: [
       {
-        id: 1,
-        name: "ape",
+        id: 3,
+        name: "agouti",
         description:
           "any of a genus of tropical American rodents about the size of a rabbit",
         link: "Merriam-Webster",
         image:
-          "https://i.pinimg.com/564x/d2/11/6b/d2116ba1f417590947624c5f7fccd136.jpg",
-        subType: [
-          {
-            id: 1,
-            name: "orangutang",
-            description: "monkey",
-            link: "Merriam-Webster",
-            image:
-              "https://i.pinimg.com/564x/d2/11/6b/d2116ba1f417590947624c5f7fccd136.jpg",
-          },
-          {
-            id: 10,
-            name: "makaka",
-            description: "monkey",
-            link: "Merriam-Webster",
-            image:
-              "https://animals.net/wp-content/uploads/2019/09/Agouti-5-650x425.jpg",
-          },
-          {
-            id: 10,
-            name: "makaka",
-            description: "monkey",
-            link: "Merriam-Webster",
-            image:
-              "https://animals.net/wp-content/uploads/2019/09/Agouti-5-650x425.jpg",
-          },
-          {
-            id: 10,
-            name: "makaka",
-            description: "monkey",
-            link: "Merriam-Webster",
-            image:
-              "https://animals.net/wp-content/uploads/2019/09/Agouti-5-650x425.jpg",
-          },
-          {
-            id: 10,
-            name: "makaka",
-            description: "monkey",
-            link: "Merriam-Webster",
-            image:
-              "https://animals.net/wp-content/uploads/2019/09/Agouti-5-650x425.jpg",
-          },
-        ],
-      },
-      {
-        id: 2,
-        name: "lemur",
-        description:
-          "any of a genus of tropical American rodents about the size of a rabbit",
-        link: "Merriam-Webster",
-        image:
-          "https://animals.net/wp-content/uploads/2019/09/Agouti-5-650x425.jpg",
-        subType: [
-          {
-            id: 1,
-            name: "orangutang",
-            description: "monkey",
-            link: "Merriam-Webster",
-            image:
-              "https://animals.net/wp-content/uploads/2019/09/Agouti-5-650x425.jpg",
-          },
-        ],
+          "https://i.pinimg.com/564x/6f/4e/7b/6f4e7b98738947a672b09f5d4c68b044.jpg",
       },
       {
         id: 3,
         name: "blesmol",
         description:
-          "any of a genus of tropical American rodents about the size of a rabbit",
+          "any of several grayish burrowing southern African rodents of Bathyergus and related genera that are very destructive to root crops",
         link: "Merriam-Webster",
         image:
           "https://animals.net/wp-content/uploads/2019/09/Agouti-5-650x425.jpg",
@@ -229,8 +168,7 @@ const animalsData = {
       {
         id: 4,
         name: "capybara",
-        description:
-          "any of a genus of tropical American rodents about the size of a rabbit",
+        description: "",
         link: "Merriam-Webster",
         image:
           "https://animals.net/wp-content/uploads/2019/09/Agouti-5-650x425.jpg",
@@ -272,6 +210,45 @@ const animalsData = {
         link: "Merriam-Webster",
         image:
           "https://animals.net/wp-content/uploads/2019/09/Agouti-5-650x425.jpg",
+      },
+    ],
+    cat: [
+      {
+        id: 1,
+        name: "bay cat",
+        description: "a wild cat of Borneo and adjacent regions",
+        link: "Merriam-Webster",
+        image:
+          "https://i.pinimg.com/564x/2d/28/e9/2d28e96d25b5d65c3b75c299efc60d75.jpg",
+      },
+      {
+        id: 2,
+        name: "beaver",
+        description:
+          "any of a genus of tropical American rodents about the size of a rabbit",
+        link: "Merriam-Webster",
+        image:
+          "https://animals.net/wp-content/uploads/2019/09/Agouti-5-650x425.jpg",
+      },
+      {
+        id: 3,
+        name: "blesmol",
+        description:
+          "any of a genus of tropical American rodents about the size of a rabbit",
+        link: "Merriam-Webster",
+        image:
+          "https://animals.net/wp-content/uploads/2019/09/Agouti-5-650x425.jpg",
+      },
+    ],
+    marsupial: [
+      {
+        id: 1,
+        name: "koala",
+        description:
+          "an Australian arboreal marsupial that has a broad head, large hairy ears, dense gray fur, and sharp claws and feeds on eucalyptus leaves",
+        link: "Merriam-Webster",
+        image:
+          "https://i.pinimg.com/564x/6e/6e/aa/6e6eaaef8189c45ada3e2431ebb2e876.jpg",
       },
     ],
   },

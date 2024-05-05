@@ -1,3 +1,4 @@
+const plugin = require("tailwindcss/plugin")
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   darkMode: ["class"],
@@ -17,6 +18,12 @@ module.exports = {
       },
     },
     extend: {
+      height: {
+        "100vhCalc": "calc(100vh - 80px)",
+      },
+      textShadow: {
+        basic: "0px 0px 5px rgba(255,255,255,1)",
+      },
       backgroundImage: {
         "hero-bg": "url('/src/assets/bg.jpg')",
         "mammals-bg": "url('/src/assets/mammals.jpg')",
@@ -25,6 +32,7 @@ module.exports = {
         "amphibians-bg": "url('/src/assets/amphibians.jpg')",
         "reptiles-bg": "url('/src/assets/reptiles.jpg')",
         "fish-bg": "url('/src/assets/fish.jpg')",
+        about: "url('/src/assets/about2.jpg')",
       },
       colors: {
         "dark-gradient": "#093028",
@@ -84,5 +92,17 @@ module.exports = {
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [
+    require("tailwindcss-animate"),
+    plugin(function ({ matchUtilities, theme }) {
+      matchUtilities(
+        {
+          "text-shadow": (value) => ({
+            textShadow: value,
+          }),
+        },
+        { values: theme("textShadow") }
+      )
+    }),
+  ],
 }

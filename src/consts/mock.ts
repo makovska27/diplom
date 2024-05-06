@@ -26,7 +26,7 @@ const animalsData = {
     primates: [
       {
         id: 1,
-        name: "ape",
+        name: "ape2",
         description:
           "any of various large tailless semi-erect primates of Africa and southeastern Asia",
         link: "Merriam-Webster",

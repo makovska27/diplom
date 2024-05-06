@@ -626,88 +626,436 @@ const animalsData = {
     ]
   },
   Insects: {
-    qwe: [
+    hymenopterous: [
       {
         id: 1,
-        name: "Жук",
+        name: "ant",
         description:
-          "any of a genus of tropical American rodents about the size of a rabbit",
-        link: "Merriam-Webster",
+          "colonial hymenopterous insects with a complex social organization and various castes performing special duties",
+        link: "Cambridge Dictionary",
         image:
-          "https://animals.net/wp-content/uploads/2019/09/Agouti-5-650x425.jpg",
+          "https://i.pinimg.com/564x/65/34/29/653429b91163c5c767c7a4a5a96fd86b.jpg",
       },
       {
         id: 2,
-        name: "Джміль",
+        name: "bee",
         description:
-          "any of a genus of tropical American rodents about the size of a rabbit",
+          "any of numerous hymenopterous insects that differ from the related wasps especially in the heavier hairier body and in having sucking as well as chewing mouthparts, that feed on pollen and nectar, and that store both and often also honey",
         link: "Merriam-Webster",
         image:
-          "https://animals.net/wp-content/uploads/2019/09/Agouti-5-650x425.jpg",
+          "https://i.pinimg.com/564x/04/7e/0b/047e0b76a13e26836c08b8b2d01533d2.jpg",
       },
       {
         id: 3,
-        name: "blesmol",
+        name: "horntail",
         description:
-          "any of a genus of tropical American rodents about the size of a rabbit",
+          "any of various hymenopterous insects related to the typical sawflies but having females with a stout hornlike ovipositor and larvae that burrow in woody plants",
         link: "Merriam-Webster",
         image:
-          "https://animals.net/wp-content/uploads/2019/09/Agouti-5-650x425.jpg",
+          "https://i.pinimg.com/564x/1a/e8/64/1ae86410cf2b3b51762e146803ff13fa.jpg",
       },
       {
         id: 4,
-        name: "capybara",
+        name: "sawfly",
         description:
-          "any of a genus of tropical American rodents about the size of a rabbit",
+          "hymenopterous insects with the female usually having a sawlike ovipositor and with the larva resembling a plant-feeding caterpillar",
         link: "Merriam-Webster",
         image:
-          "https://animals.net/wp-content/uploads/2019/09/Agouti-5-650x425.jpg",
+          "https://i.pinimg.com/564x/4f/e2/50/4fe250026a0c4ffaae5ac3a473fefcce.jpg",
       },
       {
         id: 5,
-        name: "chinchilla",
+        name: "wasp",
         description:
-          "any of a genus of tropical American rodents about the size of a rabbit",
+          "any of numerous social or solitary winged hymenopterous insects that usually have a slender smooth body with the abdomen attached by a narrow stalk, well-developed wings, biting mouthparts, and in the females and workers an often formidable sting",
         link: "Merriam-Webster",
         image:
-          "https://animals.net/wp-content/uploads/2019/09/Agouti-5-650x425.jpg",
+          "https://i.pinimg.com/564x/2b/bd/76/2bbd7623c133355567403b18da9dc315.jpg",
       },
     ],
-    bug: [
+    lepidopteran: [
       {
         id: 1,
-        name: "Оса",
+        name: "butterfly",
         description:
-          "any of a genus of tropical American rodents about the size of a rabbit",
+          "any of numerous slender-bodied diurnal lepidopteran insects including one superfamily  with broad often brightly colored wings and usually another superfamily comprising the skippers",
         link: "Merriam-Webster",
         image:
-          "https://animals.net/wp-content/uploads/2019/09/Agouti-5-650x425.jpg",
+          "https://i.pinimg.com/564x/9c/48/7b/9c487b975706eed72540e1d586c92db9.jpg",
+        subType: [
+          {
+            id: 2,
+            name: "fritillary",
+            description:
+              "a butterfly with orange-brown and black wings",
+            link: "Oxford Dictionary",
+            image:
+              "https://i.pinimg.com/564x/17/e8/62/17e8623432364b44471a73282ed939bc.jpg",
+          },
+          {
+            id: 3,
+            name: "metalmark",
+            description:
+              "any of a family of small or medium-sized usually brightly colored chiefly tropical butterflies that often have metallic coloration on the wings",
+            link: "Merriam-Webster",
+            image:
+              "https://i.pinimg.com/564x/e7/a8/81/e7a88166e8e6d36a724d8dda0254af36.jpg",
+          },
+          {
+            id: 4,
+            name: "monarch butterfly",
+            description:
+              "a large butterfly (= a flying insect) with orange and black wings, found mainly in North America",
+            link: "Oxford Dictionary",
+            image:
+              "https://i.pinimg.com/736x/71/3b/28/713b28297ae6ea55a5f341f0cfe0dec1.jpg",
+          },
+          {
+            id: 5,
+            name: "morpho",
+            description:
+              "any of a genus of large showy tropical American butterflies that typically have a brilliant blue metallic luster on the upper surface of the wings",
+            link: "Merriam-Webster",
+            image:
+              "https://i.pinimg.com/564x/ec/e9/9c/ece99cbc1f2f438e55ff7ca3173aa1b8.jpg",
+          },
+          {
+            id: 6,
+            name: "painted lady",
+            description:
+              "a butterfly that has orange-brown wings with darker marks on them",
+            link: "Oxford Dictionary",
+            image:
+              "https://i.pinimg.com/564x/b7/2c/f1/b72cf159badf5b5349e323060338cfe8.jpg",
+          },
+          {
+            id: 7,
+            name: "swallowtail",
+            description:
+              "large brightly marked butterflies with each hind wing typically having an elongated process",
+            link: "Merriam-Webster",
+            image:
+              "https://i.pinimg.com/564x/9e/6e/bb/9e6ebb0cea555b3ed2d825a32b7484ae.jpg",
+          },
+        ],
       },
       {
-        id: 2,
-        name: "Жук-убивця",
+        id: 8,
+        name: "moth",
         description:
-          "any of a genus of tropical American rodents about the size of a rabbit",
+          "any of various usually nocturnal lepidopteran insects with antennae that are often feathery, with a stouter body, duller coloring, and proportionately smaller wings than the butterflies, and with larvae that are plant-eating caterpillars",
         link: "Merriam-Webster",
         image:
-          "https://animals.net/wp-content/uploads/2019/09/Agouti-5-650x425.jpg",
+          "https://i.pinimg.com/564x/e2/f1/59/e2f1596f356bb69f15b8d34f371a366b.jpg",
       },
       {
-        id: 3,
-        name: "blesmol",
+        id: 9,
+        name: "skipper",
         description:
-          "any of a genus of tropical American rodents about the size of a rabbit",
+          "a superfamily of lepidopterous insects that have stout bodies, smaller wings, and usually hooked antennae",
         link: "Merriam-Webster",
         image:
-          "https://animals.net/wp-content/uploads/2019/09/Agouti-5-650x425.jpg",
+          "https://i.pinimg.com/564x/58/2b/11/582b113b49e78b47214bff8ca41c9d04.jpg",
+      },
+    ],
+    orthopteran: [
+      {
+        id: 10,
+        name: "cricket",
+        description:
+          "leaping orthopteran insects noted for the chirping notes produced by the male by rubbing together specially modified parts of the forewings",
+        link: "Merriam-Webster",
+        image:
+          "https://i.pinimg.com/564x/37/93/d8/3793d8df8047a651c0358f40746952b7.jpg",
       },
       {
-        id: 4,
-        name: "Sasha",
-        description: "about Sasha",
+        id: 11,
+        name: "grasshopper",
+        description:
+          "orthopterous insects  having the hind legs adapted for leaping and sometimes engaging in migratory flights in which whole regions may be stripped of vegetation",
         link: "Merriam-Webster",
         image:
-          "https://animals.net/wp-content/uploads/2019/09/Agouti-5-650x425.jpg",
+          "https://i.pinimg.com/564x/7c/29/ed/7c29edf36c52cf5cabf00ff47dad1c5e.jpg",
+      },
+    ],
+    homopterous: [
+      {
+        id: 12,
+        name: "aphid",
+        description:
+          "very small soft-bodied homopterous insects that suck the juices of plants",
+        link: "Merriam-Webster",
+        image:
+          "https://i.pinimg.com/564x/ad/02/49/ad0249eba727c695ace0b476e9e13ff5.jpg",
+      },
+      {
+        id: 13,
+        name: "cicada",
+        description:
+          "homopterous insects which have a stout body, wide blunt head, and large transparent wings and the males of which produce a loud buzzing noise usually by stridulation",
+        link: "Merriam-Webster",
+        image:
+          "https://i.pinimg.com/564x/1f/a6/bf/1fa6bfc509d34cbb9fd2d3b07226afee.jpg",
+      },
+      {
+        id: 14,
+        name: "spittlebug",
+        description:
+          "homopterous insects whose nymphal larvae produce a frothy secretion",
+        link: "Merriam-Webster",
+        image:
+          "https://i.pinimg.com/564x/a1/4b/38/a14b388430029a7a37b20f543e626dee.jpg",
+      },
+      {
+        id: 15,
+        name: "leafhopper",
+        description:
+          "small leaping homopterous insects that suck the juices of plants",
+        link: "Merriam-Webster",
+        image:
+          "https://i.pinimg.com/564x/6c/cf/01/6ccf01dc28834f89a9b3627edb0786c6.jpg",
+      },
+      {
+        id: 16,
+        name: "treehopper",
+        description:
+          "small leaping homopterous insects that feed on the sap especially of shrubs and trees",
+        link: "Merriam-Webster",
+        image:
+          "https://i.pinimg.com/564x/51/5b/aa/515baa07a308b77bddeee33ccbedac59.jpg",
+      },
+      {
+        id: 17,
+        name: "whitefly",
+        description:
+          "small homopterous insects that are injurious plant pests",
+        link: "Merriam-Webster",
+        image:
+          "https://i.pinimg.com/564x/50/07/06/5007060b7222110ff71bfc6deb2d5c5a.jpg",
+      },
+    ],
+    hemipteran: [
+      {
+        id: 18,
+        name: "bedbug",
+        description:
+          "a wingless bloodsucking hemipterous bug  sometimes infesting houses and especially beds and feeding on human blood",
+        link: "Merriam-Webster",
+        image:
+          "https://i.pinimg.com/564x/80/0b/eb/800beb299dbeb414089951eff48bdc10.jpg",
+      },
+      {
+        id: 19,
+        name: "plant bug",
+        description:
+          "an insect of the hemipterous family Miridae including many that are destructive pests of plants",
+        link: "Merriam-Webster",
+        image:
+          "https://i.pinimg.com/564x/cd/02/ca/cd02ca147d7da53d2b8f39dd0647de59.jpg",
+      },
+      {
+        id: 20,
+        name: "lace bug",
+        description:
+          "small bugs that constitute the large hemipterous family, that have bodies and wings covered with a lacy network of raised lines, and that include many that suck plant juices and are serious pests",
+        link: "Merriam-Webster",
+        image:
+          "https://i.pinimg.com/564x/8d/f0/00/8df000a8e580cad5dd3e1d3d20579726.jpg",
+      },
+    ],
+    flying: [
+      {
+        id: 21,
+        name: "crane fly",
+        description:
+          "a flying insect with very long legs",
+        link: "Oxford Dictionary",
+        image:
+          "https://i.pinimg.com/564x/40/6f/b7/406fb73ce4f336d7cde6acc118acce2b.jpg",
+      },
+      {
+        id: 22,
+        name: "fruit fly",
+        description:
+          "a small flying insect that feeds on plants and leaves its eggs on the leaves of plants",
+        link: "Cambridge Dictionary",
+        image:
+          "https://i.pinimg.com/564x/e4/8b/0a/e48b0a514730a9c118a69d0f138a5155.jpg",
+      },
+      {
+        id: 23,
+        name: "gnat",
+        description:
+          "a very small flying insect that bites animals and people",
+        link: "Cambridge Dictionary",
+        image:
+          "https://i.pinimg.com/564x/b7/3e/08/b73e08d2290601f051eec42ace71c1f2.jpg",
+      },
+      {
+        id: 24,
+        name: "hornet",
+        description:
+          "a large wasp (= a black and yellow flying insect) that has a very powerful sting",
+        link: "Oxford Dictionary",
+        image:
+          "https://i.pinimg.com/564x/35/79/ad/3579adae5d733d729933ab30e7e364c8.jpg",
+      },
+      {
+        id: 25,
+        name: "horsefly",
+        description:
+          "any of various large flying insects that bite horses, cattle, and sometimes people",
+        link: "Cambridge Dictionary",
+        image:
+          "https://i.pinimg.com/564x/4d/a7/4e/4da74eea937840d132024dda0580a530.jpg",
+      },
+      {
+        id: 26,
+        name: "mosquito",
+        description:
+          "a small flying insect that bites people and animals and sucks their blood",
+        link: "Cambridge Dictionary",
+        image:
+          "https://i.pinimg.com/564x/c9/6d/a4/c96da487f166316152cd78934f2b3c44.jpg",
+      },
+    ],
+    wingless: [
+      {
+        id: 27,
+        name: "flea",
+        description:
+          "small wingless bloodsucking insects that have a hard laterally compressed body and legs adapted to leaping and that feed on warm-blooded animals",
+        link: "Merriam-Webster",
+        image:
+          "https://i.pinimg.com/564x/87/c0/f0/87c0f0d20a78d0777c2c20a07ca0ba57.jpg",
+      },
+      {
+        id: 28,
+        name: "louse",
+        description:
+          "any of various small wingless usually flattened insects parasitic on warm-blooded animals",
+        link: "Cambridge Dictionary",
+        image:
+          "https://i.pinimg.com/564x/83/d9/05/83d90537db246551af9cdb0ca077110b.jpg",
+      },
+    ],
+    beetles: [
+      {
+        id: 29,
+        name: "black beetle",
+        description:
+          "glossy black burrowing beetles that are very destructive to turf and certain cultivated plants in Australia",
+        link: "Merriam-Webster",
+        image:
+          "https://i.pinimg.com/564x/40/42/07/404207a2b855d3dff7e7d72f7743db2d.jpg",
+      },
+      {
+        id: 30,
+        name: "click beetle",
+        description:
+          "beetles able to right themselves with a click when inverted by flexing the articulation between the prothorax and mesothorax",
+        link: "Merriam-Webster",
+        image:
+          "https://i.pinimg.com/564x/4b/26/52/4b2652c78452b6a6c4cc1a8f05cc863e.jpg",
+      },
+      {
+        id: 31,
+        name: "diving beetle",
+        description:
+          "aquatic beetles that breathe while submerged using air trapped under their elytra",
+        link: "Merriam-Webster",
+        image:
+          "https://i.pinimg.com/564x/21/c9/56/21c9563b5461ced9a616227fc2302f5c.jpg",
+      },
+      {
+        id: 32,
+        name: "dung beetle",
+        description:
+          "a beetle that rolls balls of dung in which to lay eggs and on which the larvae feed",
+        link: "Merriam-Webster",
+        image:
+          "https://i.pinimg.com/564x/aa/56/73/aa56732f3b3b62eef2ac06ecf5217a5a.jpg",
+      },
+      {
+        id: 33,
+        name: "colorado beetle",
+        description:
+          "a type of beetle with black and yellow lines on its body that attacks potato plants",
+        link: "Merriam-Webster",
+        image:
+          "https://i.pinimg.com/736x/9a/e6/7a/9ae67affce092575435b8a08d2479fd1.jpg",
+      },
+      {
+        id: 34,
+        name: "elm bark-beetle",
+        description:
+          "a small beetle (= an insect with a hard shell-like back) that moves under the bark (= hard outer covering) of elm trees, bringing a disease that often kills them ",
+        link: "Cambridge dictionary",
+        image:
+          "https://i.pinimg.com/564x/d9/10/a1/d910a185ab95cd229bb333f33ed7ec02.jpg",
+      },
+      {
+        id: 35,
+        name: "ladybird",
+        description:
+          "a small, red beetle that is round and has black spots",
+        link: "Cambridge dictionary",
+        image:
+          "https://i.pinimg.com/564x/9c/54/79/9c54796f8df65954df2c4ef9fe0a0aec.jpg",
+      },
+      {
+        id: 36,
+        name: "larder beetle",
+        description:
+          "a dark brown or nearly black beetle  that  has a bristly larva which feeds on dried animal products",
+        link: "Merriam-Webster",
+        image:
+          "https://i.pinimg.com/564x/d9/10/a1/d910a185ab95cd229bb333f33ed7ec02.jpg",
+      },
+      {
+        id: 37,
+        name: "melon beetle",
+        description:
+          "chrysomelid beetles injurious to melons",
+        link: "Merriam-Webster",
+        image:
+          "https://i.pinimg.com/564x/6f/1f/cd/6f1fcdd71de33886943108a77e21112f.jpg",
+      },
+      {
+        id: 38,
+        name: "rhinoceros beetle",
+        description:
+          "any of various large chiefly tropical scarab beetles having projecting horns on thorax and head",
+        link: "Merriam-Webster",
+        image:
+          "https://i.pinimg.com/564x/04/94/bb/0494bbeb1aba7fe8789e4a0733e0df3c.jpg",
+      },
+      {
+        id: 39,
+        name: "stag beetle",
+        description:
+          "mostly large beetles having males with long and often branched mandibles suggesting the antlers of a stag",
+        link: "Merriam-Webster",
+        image:
+          "https://i.pinimg.com/564x/72/7d/34/727d349e52db228766f58d54dc0f4d38.jpg",
+      },
+      {
+        id: 40,
+        name: "tiger beetle",
+        description:
+          "active carnivorous beetles having larvae that tunnel in the soil",
+        link: "Merriam-Webster",
+        image:
+          "https://i.pinimg.com/564x/e3/05/67/e305675a500ca1cd19cbf9624d4dc0d4.jpg",
+      },
+      {
+        id: 41,
+        name: "cone beetle",
+        description:
+          "small beetles having larvae that develop in and destroy the growing cones of conifers, especially pines",
+        link: "Merriam-Webster",
+        image:
+          "https://i.pinimg.com/564x/13/23/ab/1323abe7d4693d3b2a0abeb6c0e4dea2.jpg",
       },
     ],
   },
